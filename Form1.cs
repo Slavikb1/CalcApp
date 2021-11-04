@@ -25,52 +25,72 @@ namespace CalcApp
 
         private void num0_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "0";
+            CalculatorDisplay.Text = "";
+            userInput += "0";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num1_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "1";
+            CalculatorDisplay.Text = "";
+            userInput += "1";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num2_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "2";
+            CalculatorDisplay.Text = "";
+            userInput += "2";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num3_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "3";
+            CalculatorDisplay.Text = "";
+            userInput += "3";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num4_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "4";
+            CalculatorDisplay.Text = "";
+            userInput += "4";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num5_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "5";
+            CalculatorDisplay.Text = "";
+            userInput += "5";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num6_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "6";
+            CalculatorDisplay.Text = "";
+            userInput += "6";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num7_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "7";
+            CalculatorDisplay.Text = "";
+            userInput += "7";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num8_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "8";
+            CalculatorDisplay.Text = "";
+            userInput += "8";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void num9_Click(object sender, EventArgs e)
         {
-            CalculatorDisplay.Text += "9";
+            CalculatorDisplay.Text = "";
+            userInput += "9";
+            CalculatorDisplay.Text += userInput;
         }
 
         private void decimelButton_Click(object sender, EventArgs e)
@@ -80,27 +100,39 @@ namespace CalcApp
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            function = 'C';
+            first = "";
+            second = "";
+            userInput = "";
+            result = 0.0;
+            CalculatorDisplay.Text = "0";
         }
 
         private void devideButton_Click(object sender, EventArgs e)
         {
             function = '/';
+            first = userInput;
+            userInput = "";
         }
 
         private void multiplyButton_Click(object sender, EventArgs e)
         {
             function = '*';
+            first = userInput;
+            userInput = "";
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
             function = '-';
+            first = userInput;
+            userInput = "";
         }
 
         private void plusButton_Click(object sender, EventArgs e)
         {
             function = '+';
+            first = userInput;
+            userInput = "";
         }
 
         private void equalButton_Click(object sender, EventArgs e)
