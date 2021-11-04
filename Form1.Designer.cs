@@ -51,6 +51,7 @@ namespace CalcApp
             // 
             // num7
             // 
+            this.num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num7.Location = new System.Drawing.Point(12, 90);
             this.num7.Name = "num7";
             this.num7.Size = new System.Drawing.Size(75, 37);
@@ -72,6 +73,7 @@ namespace CalcApp
             // 
             // num8
             // 
+            this.num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num8.Location = new System.Drawing.Point(93, 90);
             this.num8.Name = "num8";
             this.num8.Size = new System.Drawing.Size(75, 37);
@@ -82,6 +84,7 @@ namespace CalcApp
             // 
             // num9
             // 
+            this.num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num9.Location = new System.Drawing.Point(174, 90);
             this.num9.Name = "num9";
             this.num9.Size = new System.Drawing.Size(75, 37);
@@ -92,6 +95,7 @@ namespace CalcApp
             // 
             // num4
             // 
+            this.num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num4.Location = new System.Drawing.Point(12, 133);
             this.num4.Name = "num4";
             this.num4.Size = new System.Drawing.Size(75, 37);
@@ -102,6 +106,7 @@ namespace CalcApp
             // 
             // num5
             // 
+            this.num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num5.Location = new System.Drawing.Point(93, 133);
             this.num5.Name = "num5";
             this.num5.Size = new System.Drawing.Size(75, 37);
@@ -112,6 +117,7 @@ namespace CalcApp
             // 
             // num6
             // 
+            this.num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num6.Location = new System.Drawing.Point(174, 133);
             this.num6.Name = "num6";
             this.num6.Size = new System.Drawing.Size(75, 37);
@@ -122,6 +128,7 @@ namespace CalcApp
             // 
             // num1
             // 
+            this.num1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num1.Location = new System.Drawing.Point(12, 178);
             this.num1.Name = "num1";
             this.num1.Size = new System.Drawing.Size(75, 37);
@@ -132,6 +139,7 @@ namespace CalcApp
             // 
             // num2
             // 
+            this.num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num2.Location = new System.Drawing.Point(93, 178);
             this.num2.Name = "num2";
             this.num2.Size = new System.Drawing.Size(75, 37);
@@ -142,6 +150,7 @@ namespace CalcApp
             // 
             // num3
             // 
+            this.num3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num3.Location = new System.Drawing.Point(174, 178);
             this.num3.Name = "num3";
             this.num3.Size = new System.Drawing.Size(75, 37);
@@ -174,6 +183,7 @@ namespace CalcApp
             // 
             // multiplyButton
             // 
+            this.multiplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.multiplyButton.Location = new System.Drawing.Point(255, 133);
             this.multiplyButton.Name = "multiplyButton";
             this.multiplyButton.Size = new System.Drawing.Size(75, 37);
@@ -228,6 +238,7 @@ namespace CalcApp
             // 
             // num0
             // 
+            this.num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.num0.Location = new System.Drawing.Point(12, 221);
             this.num0.Name = "num0";
             this.num0.Size = new System.Drawing.Size(75, 37);
