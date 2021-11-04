@@ -19,7 +19,7 @@ namespace CalcApp
 
         private void num0_Click(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void num1_Click(object sender, EventArgs e)
