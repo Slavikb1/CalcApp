@@ -137,7 +137,39 @@ namespace CalcApp
 
         private void equalButton_Click(object sender, EventArgs e)
         {
-            function = '=';
+            second = userInput;
+            double firstNum, secondNum;
+            firstNum = Convert.ToDouble(first);
+            secondNum = Convert.ToDouble(second);
+
+            //plus
+            if (function == '+') {
+                result = firstNum + secondNum;
+                CalculatorDisplay.Text = result.ToString();
+            }
+            //minus
+            else if (function == '-') {
+                result = firstNum - secondNum;
+                CalculatorDisplay.Text = result.ToString();
+            }
+            //devide
+            else if (function == '/') {
+                if (secondNum == '0')
+                {
+                    CalculatorDisplay.Text = "ERR";
+                }
+                else {
+                    result = firstNum / secondNum;
+                    CalculatorDisplay.Text = result.ToString();
+                }
+                
+            }
+            //multiply
+            else if (function == '*')
+            {
+                result = firstNum * secondNum;
+                CalculatorDisplay.Text = result.ToString();
+            }
         }
     }
 }
