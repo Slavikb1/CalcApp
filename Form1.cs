@@ -16,7 +16,7 @@ namespace CalcApp
         string second = "";
         char function;
         double result = 0.0;
-
+        string userInput = "";
 
         public Form1()
         {
@@ -80,32 +80,32 @@ namespace CalcApp
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-
+            function = 'C';
         }
 
         private void devideButton_Click(object sender, EventArgs e)
         {
-
+            function = '/';
         }
 
         private void multiplyButton_Click(object sender, EventArgs e)
         {
-
+            function = '*';
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
-
+            function = '-';
         }
 
         private void plusButton_Click(object sender, EventArgs e)
         {
-
+            function = '+';
         }
 
         private void equalButton_Click(object sender, EventArgs e)
         {
-
+            function = '=';
         }
     }
 }
