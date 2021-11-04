@@ -12,6 +12,12 @@ namespace CalcApp
 {
     public partial class Form1 : Form
     {
+        string first = "";
+        string second = "";
+        char function;
+        double result = 0.0;
+
+
         public Form1()
         {
             InitializeComponent();
